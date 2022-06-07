@@ -5,7 +5,7 @@
     "description": "Mediatized is a comprehensive media library containing options for adding, editing, and removing auio files, videos, documents and even photographs.",
     "version": "1.0.0"
   },
-  "host": "cse-341-final-project.herokuapp.com",
+  "host": "cse341lmyersmediatized.herokuapp.com",
   "basePath": "/",
   "tags": [
     {
@@ -150,9 +150,7 @@
     },
     "/photo/": {
       "get": {
-        "tags": [
-          "Photos"
-        ],
+        "tags": ["Photos"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -162,9 +160,7 @@
         }
       },
       "post": {
-        "tags": [
-          "Photos"
-        ],
+        "tags": ["Photos"],
         "description": "",
         "parameters": [
           {
@@ -191,9 +187,7 @@
     },
     "/photo/{id}": {
       "get": {
-        "tags": [
-          "Photos"
-        ],
+        "tags": ["Photos"],
         "description": "",
         "parameters": [
           {
@@ -210,9 +204,7 @@
         }
       },
       "put": {
-        "tags": [
-          "Photos"
-        ],
+        "tags": ["Photos"],
         "description": "",
         "parameters": [
           {
@@ -240,9 +232,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "Photos"
-        ],
+        "tags": ["Photos"],
         "description": "",
         "parameters": [
           {

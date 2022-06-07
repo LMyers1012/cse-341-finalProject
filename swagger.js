@@ -6,30 +6,35 @@ const doc = {
     description: 'Mediatized'
   },
   // host: 'localhost:8080',
-  host: 'cse-341-final-project.herokuapp.com',
+  host: 'cse341lmyersmediatized.herokuapp.com',
 
   // change the host and schemes to work on localhost. Change back before pushing your branch to make sure the heroku app works
   schemes: ['https'], //['https'],
   tags: [
     {
       name: 'Audio',
-      description: 'Operations for Audio Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
+      description:
+        'Operations for Audio Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
     },
     {
       name: 'Video',
-      description: 'Operations for Video Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
+      description:
+        'Operations for Video Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
     },
     {
       name: 'Documents',
-      description: 'Operations for Documents Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
+      description:
+        'Operations for Documents Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
     },
     {
       name: 'Photos',
-      description: 'Operations for Photos Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
+      description:
+        'Operations for Photos Content include GET which returns all entries, POST which lets you add an entry, GET(by ID) which allows you to search for a specific entry based on an id created by the application, PUT which overwrites the information on an entry, DELETE which removes an entry from the database, and GET(by Title) which searches for a entry based on the title of the entry stored.'
     },
     {
       name: 'Users',
-      description: 'Operations for Users include GET which returns all users,GET(by ID) which allows you to search for a specific entry based on an id created by the application, DELETE which removes an entry from the database, andGET(by Title) which searches for a entry based on the title of the entry stored.'
+      description:
+        'Operations for Users include GET which returns all users,GET(by ID) which allows you to search for a specific entry based on an id created by the application, DELETE which removes an entry from the database, andGET(by Title) which searches for a entry based on the title of the entry stored.'
     }
   ],
   definitions: {
@@ -69,7 +74,8 @@ const doc = {
       link: 'https://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/assets/v3/editorial/9/a5/9a56b441-f174-5cc7-9735-30b7296127a1/58dfb31eb52ae.image.jpg?crop=1567%2C1175%2C98%2C0&resize=840%2C630&order=crop%2Cresize',
       location: {
         longitude: '41.224842° N',
-        latitude: '-95.92657° E'},
+        latitude: '-95.92657° E'
+      },
       dateTaken: '10-16-2019',
       photographer: 'Rebecca S. Gratz'
     }
